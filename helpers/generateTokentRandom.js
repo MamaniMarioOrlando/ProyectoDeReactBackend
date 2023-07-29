@@ -4,9 +4,9 @@ module.exports = ()=>{
     const random = randomString.substring(2);
     const date = Date.now().toString(32);
 
-    console.log(randomNumber);
-    console.log(randomString);
-    console.log(random);
+    //console.log(randomNumber);
+    //console.log(randomString);
+    //console.log(random);
 
     return random + date;
 }
